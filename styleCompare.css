@@ -1,0 +1,45 @@
+.banner {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.form {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.button {
+    padding: 10px 24px;
+    border-radius: 12px;
+    font-size: 20px;
+    width: 10%;
+    text-align: center;
+}
+
+.devices {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.devices :first-child {
+    border: 1px solid black;
+    width: 33%;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+.devices :last-child {
+    border: 1px solid black;
+    width: 33%;
+    padding: 20px;
+    margin: 10px;
+    float: right;
+    text-align: center;
+}
