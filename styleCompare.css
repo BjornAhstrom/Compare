@@ -13,33 +13,31 @@
 }
 
 .button {
-    padding: 10px 24px;
+    padding: 5px 30px;
     border-radius: 12px;
     font-size: 20px;
-    width: 10%;
-    text-align: center;
+    
 }
 
 .devices {
     padding: 20px;
     margin: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+   
+    align-items: baseline;
 }
 
-.devices :first-child {
-    border: 1px solid black;
-    width: 33%;
+
+.devices :nth-child(2) {
     padding: 20px;
     margin: 10px;
-    float: left;
-    text-align: center;
 }
 
-.devices :last-child {
-    border: 1px solid black;
-    width: 33%;
+.devices :nth-child(3) {
     padding: 20px;
     margin: 10px;
-    float: right;
-    text-align: center;
 }
