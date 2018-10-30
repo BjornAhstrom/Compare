@@ -78,10 +78,13 @@
     background-color: black;
     height: 100%;
     float: left;
-    margin-left: 70px;
+    margin-left: 110px;
 }
 
 .textDevice2 > p {
     margin-left: 5px;
     padding: 5px;
+}
+
+.footer {
 }
