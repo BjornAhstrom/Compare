@@ -24,8 +24,12 @@
     
 }
 
+
 .secondButton{
     padding: 5px;
+    
+    width: 217px;
+    display: flex;   
 }
 
 .devices {
